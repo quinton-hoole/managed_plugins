@@ -49,7 +49,7 @@ On Windows, build is performed in the _build_ directory using a CMD shell.
 The first, initial step to install build depencies needs administrative
 privileges and is run using:
 
-    > set PATH=C:\ProgramData\chocolatey\bin;C:\Windows\system32;C:\Windows
+    > set PATH="C:\ProgramData\chocolatey\bin;C:\Windows\system32;C:\Windows"
     > ..\buildwin\win_deps.bat
 
 The initial `set PATH=...` line strips down %PATH% to a very small path,
